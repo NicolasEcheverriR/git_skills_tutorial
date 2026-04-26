@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude mcp:*)",
+      "Read(//Users/nico0/.claude/**)",
+      "WebFetch(domain:www.anthropic.com)",
+      "Bash(open:*)",
+      "Skill(git-pushing)",
+      "Bash(bash:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "verbose-server"
+  ]
+}
